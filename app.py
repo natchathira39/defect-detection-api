@@ -9,7 +9,7 @@ import io
 # ── Model config ──────────────────────────────────────────────────────────────
 # Replace the file ID below with your own Google Drive file ID
 # Drive link format: https://drive.google.com/file/d/YOUR_FILE_ID/view
-GDRIVE_FILE_ID = "https://drive.google.com/file/d/1C33LGUFb_l4LffZwFvDoWcYR4PtrGBnQ/view?usp=sharing"
+GDRIVE_FILE_ID = "1C33LGUFb_l4LffZwFvDoWcYR4PtrGBnQ"
 MODEL_PATH = "best_model_20260208_073549.h5"
 
 # ── Download model from Google Drive on startup (if not already present) ──────
