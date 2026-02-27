@@ -12,7 +12,7 @@ import io
 GDRIVE_FILE_ID = "1C33LGUFb_l4LffZwFvDoWcYR4PtrGBnQ"
 MODEL_PATH = "best_model_20260208_073549.h5"
 
-# ── Download model from Google Drive on startup (if not already present) ──────
+# ── Download model from Google Drive on startup (if not already present) ─────
 if not os.path.exists(MODEL_PATH):
     print("Downloading model from Google Drive...")
     gdown.download(
